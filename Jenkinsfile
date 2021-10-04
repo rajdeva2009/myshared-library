@@ -6,7 +6,7 @@ pipeline {
      stage('test'){
        steps{
           HelloWorld('Deva')
-          git(jobURL)
+          git('jobURL')
    }
   }
  }
