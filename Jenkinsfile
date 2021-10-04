@@ -5,7 +5,8 @@ pipeline {
    stages{
      stage('test'){
        steps{
-          HelloWorld('Deva')         
+          HelloWorld('Deva')
+          git(jobURL)
    }
   }
  }
